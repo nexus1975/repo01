@@ -1,0 +1,16 @@
+<div id="panel" style="display: none;">    
+    <div>Image of the day</div>
+    <img id="photo" alt="" src="{{data.imageUrl}}"/>    
+    <br>
+    <div id="description">
+        <font size="+1"><span ng-bind="data.description"></span></font> <span ng-bind="data.copyright"></span> <a target="_blank" href="{{data.copyrightLink}}">&curlywedge;</a>
+    </div>
+    <br>
+    <div id="allimages">
+        <ol>
+            <li ng-repeat="img in allimages"><a href="{{img.imageurl}}">{{img.description}}</a></li>
+        </ol>
+    </div>
+    
+</div>
+

@@ -1,0 +1,26 @@
+body {
+    background-size: 100%;  
+    background-color: black;
+    font-family: roboto, arial, verdana;
+    opacity: 1;
+    margin: 0px;
+}
+#panel {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+#photo {    
+    border: 20px #101010 solid;
+}
+#description {
+    color: whitesmoke;
+    background-color: #101010;
+    padding: 10px;
+}
+#allimages {
+    background-color: whitesmoke;
+    color: lightgray;
+    text-align: left;
+}
